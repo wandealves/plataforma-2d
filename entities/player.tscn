@@ -121,5 +121,12 @@ animation = &"jump"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1872201197]
+visible = false
 position = Vector2(1, 1)
 shape = SubResource("CapsuleShape2D_6by1i")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1998439817]
+limit_left = 0
+limit_top = 0
+limit_bottom = 200
+position_smoothing_enabled = true
